@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  listaClientes: Array<any> = [
+    { nome: 'Ana' },
+    { nome: 'Priscila' },
+    { nome: 'Thiago' },
+    { nome: 'Eduardo' },
+    { nome: 'Junior' },
+    { nome: 'Igor' },
+    { nome: 'Alexandre' },
+  ];
 }
